@@ -2,12 +2,15 @@
 
 Merges your `styleName` attributes with your `className` attributes and avoids Jest errors/warnings.
 
-`npm i -D babel-plugin-process.stylename`
+`npm i -D babel-plugin-process-stylename`
 
+this:
 ```jsx
-// this
 <MyComp styleName="MyComp" className="kittens">
-// becomes
+```
+
+becomes:
+```jsx
 <MyComp className="MyComp kittens">
 ```
 
