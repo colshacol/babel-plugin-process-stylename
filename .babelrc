@@ -1,0 +1,7 @@
+{
+    "plugins": [
+        ["./src/index.js", {
+            "modifier": "$_[name]_$"
+        }]
+    ]
+}

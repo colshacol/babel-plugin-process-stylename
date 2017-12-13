@@ -1,0 +1,44 @@
+{
+  "name": "babel-plugin-process-stylename",
+  "version": "0.0.11",
+  "description": "Push styleName into className to avoid unit testing errors.",
+  "main": "dist/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-register": "^6.26.0"
+  },
+  "scripts": {
+    "prepublish": "npm run transpile",
+    "test": "ava",
+    "transpile": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colshacol/babel-plugin-process-stylename.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colshacol/babel-plugin-process-stylename/issues"
+  },
+  "homepage": "https://github.com/colshacol/babel-plugin-process-stylename#readme",
+  "keywords": [
+    "babel",
+    "plugin",
+    "css",
+    "modules",
+    "stylename",
+    "jsx",
+    "react"
+  ],
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "author": "Colton Colcleasure <colshacol@gmail.com>",
+  "license": "MIT"
+}
